@@ -1,0 +1,43 @@
+# Operating system metadata
+.DS_Store
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*:Zone.Identifier
+*.Zone.Identifier
+*.Identifier
+
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+*$py.class
+.python-version
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter scratch state
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+_tmp_*_smoke.ipynb
+*_executed.ipynb
+
+# Test, lint, and coverage caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Build and packaging outputs
+build/
+dist/
+*.egg-info/
+
+# Editor and local machine files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~

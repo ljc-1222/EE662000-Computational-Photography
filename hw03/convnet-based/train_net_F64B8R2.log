@@ -1,0 +1,23 @@
+training log record of F=64, B=8, R=2, random seed=715
+dataset configuration: epoch size = 150, batch size = 16, patch size = 64
+===> Epoch[1](30/150): Avg. Loss: 0.2207
+===> Epoch[1](60/150): Avg. Loss: 0.1003
+===> Epoch[1](90/150): Avg. Loss: 0.0825
+===> Epoch[1](120/150): Avg. Loss: 0.0719
+===> Epoch[1](150/150): Avg. Loss: 0.0522
+
+Resume training from epoch 10
+
+Resume training from epoch 10
+
+Resume training from epoch 10
+===> Epoch[10](30/150): Avg. Loss: 0.0320
+===> Epoch[10](60/150): Avg. Loss: 0.0222
+===> Epoch[10](90/150): Avg. Loss: 0.0235
+===> Epoch[10](120/150): Avg. Loss: 0.0243
+===> Epoch[10](150/150): Avg. Loss: 0.0204
+===> Avg. PSNR: 24.2515 dB
+===> Epoch[11](30/150): Avg. Loss: 0.0237
+===> Epoch[11](60/150): Avg. Loss: 0.0237
+===> Epoch[11](90/150): Avg. Loss: 0.0235
+===> Epoch[11](120/150): Avg. Loss: 0.0236
