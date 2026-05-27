@@ -25,16 +25,20 @@ This repository collects the coursework notebooks for EE662000 Computational Pho
 
 ## Requirements
 
-Use a Python environment with Jupyter support. The current notebooks have been checked with the local conda `base` environment.
+- Python 3.10 or newer is recommended.
+- A POSIX-like shell is useful for the example commands below.
+- No dependency lock file is provided. Install the packages required by the homework notebooks you want to run.
 
-Core packages:
+Common packages used across the notebooks:
 
 ```sh
-python -m pip install numpy opencv-python matplotlib imageio pillow scipy scikit-image tqdm nbconvert nbformat
+python3 -m venv .venv
+source .venv/bin/activate
+python -m pip install jupyter numpy opencv-python matplotlib imageio pillow scipy scikit-image tqdm nbconvert nbformat
 python -m pip install proximal torch torchvision
 ```
 
-Optional CUDA helper functions in `hw02/code/deblur_functions.ipynb` use CuPy:
+`hw02/code/deblur_functions.ipynb` additionally includes optional CUDA helper functions that use CuPy:
 
 ```sh
 python -m pip install cupy-cuda12x
